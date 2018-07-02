@@ -29,10 +29,10 @@ public class NutritionFacts {
 
         private final int servingSize;
         private final int servings;
-        private final int calories = 0;
-        private final int fat = 0;
-        private final int sodium = 0;
-        private final int carbohydrate = 0;
+        private int calories = 0;
+        private int fat = 0;
+        private int sodium = 0;
+        private int carbohydrate = 0;
 
 
         public Builder(int servingSize, int servings) {
@@ -41,23 +41,23 @@ public class NutritionFacts {
         }
 
         public Builder calories(int val) {
-            calories = val;
+            this.calories = val;
 
             return this;
         }
 
         public Builder fat(int val) {
-            fat = val;
+            this.fat = val;
             return this;
         }
 
         public Builder sodium(int val) {
-            sodium = val;
+            this.sodium = val;
             return this;
         }
 
         public Builder carbohydrate(int val) {
-            carbohydrate = val;
+            this.carbohydrate = val;
             return this;
         }
 

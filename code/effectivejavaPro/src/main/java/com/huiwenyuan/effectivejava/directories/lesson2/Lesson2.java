@@ -16,6 +16,9 @@ public class Lesson2 {
      * 第4条：通过私有化构造器强化不可实例化的能力 见com.huiwenyuan.effectivejava.directories.lesson2.section4包下的内容
      * 第5条：优先使用依赖注入而不是硬连接资源
      * 第6条：避免创建不必要的对象
+     * 第7条：消除过时的对象引用
+     * 第8条：避免使用终结方法和清理方法
+     * 第9条：优先使用try-with-resources而不是try-finally 见com.huiwenyuan.effectivejava.directories.lesson2.section9包下的内容
      */
 
 }
